@@ -149,4 +149,4 @@ cod_gest = 42
 FROM docdeu d
 WHERE t.estado = 'A'
 AND t.consdocdeu = d.consdocdeu
-and t.consdocdeu = sss.consdocdeu
+and t.consdocdeu = sss.consdocdeu;
