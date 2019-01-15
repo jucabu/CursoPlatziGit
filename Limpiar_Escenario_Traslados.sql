@@ -150,3 +150,4 @@ FROM docdeu d
 WHERE t.estado = 'A'
 AND t.consdocdeu = d.consdocdeu
 and t.consdocdeu = sss.consdocdeu;
+;
