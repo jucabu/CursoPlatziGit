@@ -1,11 +1,3 @@
-
-qu dasdf iero ver si se quitan los cambios
-
-
-=======
-quitan los cambiasdfasdf os
->>>>>>> rama1
-PRIMER ESCENARIO 
 drop table kkk;
 create temp table kkk as SELECT consdocdeu,COUNT(*) FROM traslados WHERE estado = 'A' GROUP BY 1 HAVING COUNT(*)>1;
 alter table traslados add constraslados serial;
